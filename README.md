@@ -11,7 +11,7 @@ La autenticación y autorización es mediante tokens JWT, utilizando la librerí
 
 ## Ejecutar el proyecto
 1. Clonar el repositorio:
->> git clone https://github.com/fedemaximovicz/auth-django.git
+>> git clone https://github.com/fedemaximovicz/auth-practica-profesionalizante.git
 >> cd auth-django
 2. Crear entorno virtual:
 >> python -m venv env
