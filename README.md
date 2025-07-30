@@ -11,21 +11,33 @@ La autenticación y autorización es mediante tokens JWT, utilizando la librerí
 
 ## Ejecutar el proyecto
 1. Clonar el repositorio:
+```bash
 >> git clone https://github.com/fedemaximovicz/auth-practica-profesionalizante.git
 >> cd auth-django
+```
 2. Crear entorno virtual:
+```bash
 >> python -m venv env
 >> env\Scripts\activate (En Windows)
 >> source env/bin/activate (En Linux o Mac)
+```
 3. Instalar los paquetes: 
+```bash
 >> pip install -r requirements.txt
+```
 4. Correr las migraciones:
+```bash
 >> python manage.py makemigrations
 >> python manage.py migrate
+```
 5. Ejecutar script para agregar unos registros de ejemplo en la base de datos:
+```bash
 >> python manage.py populate_db
+```
 6. Iniciar el servidor>
+```bash
 >> python manage.py runserver
+```
 
 ## Documentación de la API (con Swagger)
 Una vez el server está iniciado, se puede acceder a la documentación interactiva en Swagger accediendo a 
